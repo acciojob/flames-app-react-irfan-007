@@ -18,12 +18,14 @@ function App() {
     <div id="main">
       <form onSubmit={submit}>
         <input
+          name="name1"
           data-testid="input1"
           type="text"
           placeholder="Enter first name"
           onChange={(e) => setName1(e.target.value)}
         />
         <input
+          name="name2"
           data-testid="input2"
           type="text"
           placeholder="Enter second name"
